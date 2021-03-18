@@ -17,4 +17,3 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/kenzok8/openwrt-packages package/kenzo
 git clone https://github.com/kenzok8/small package/small
-sed -i 's/192.168.1.1/10.0.0.1/' package/base-files/files/bin/config_generate
